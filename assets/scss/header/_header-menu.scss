@@ -1,0 +1,22 @@
+.header-menu {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  &__container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+}
+
+.header-menu__container,
+.header-content__container {
+  max-width: $ul;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gap;
+  padding-right: $gap;
+}

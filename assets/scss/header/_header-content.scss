@@ -1,0 +1,16 @@
+.header-content {
+  position: relative;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+
+    .btn:not(:last-of-type) {
+      margin-right: $gap;
+    }
+  }
+}
